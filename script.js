@@ -3,8 +3,8 @@ let name = 'Shreyansh Shukla';
 let age = 20;
 
 // Function
-function greet(name) {
-  console.log(`Hello, ${name}!`);
+function greet(name,age) {
+  console.log(`Hello, ${name}! , your age is ${age}`);
 }
 
 // Loop
