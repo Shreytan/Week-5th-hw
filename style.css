@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s;
+}
+
+.clock-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.clock-display {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+.alarm-container, .timer-container, .stopwatch-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+input[type="time"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+body:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.clock-container:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#alarm-btn {
+    background-color: #4CAF50;
+}
+
+#alarm-btn:hover {
+    background-color: #3e8e41;
+}
+
+#timer-btn {
+    background-color: #4CAF50;
+}
+
+#timer-btn:hover {
+    background-color: #3e8e41;
+}
+
+#stopwatch-btn {
+    background-color: #4CAF50;
+}
+
+#stopwatch-btn:hover {
+    background-color: #3e8e41;
+}

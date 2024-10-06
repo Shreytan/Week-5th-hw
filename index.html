@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="clock-display">
+            <span id="time"></span>
+            <span id="date"></span>
+        </div>
+        <div class="alarm-container">
+            <button id="alarm-btn">Set Alarm</button>
+            <input id="alarm-time" type="time">
+        </div>
+        <div class="timer-container">
+            <button id="timer-btn">Start Timer</button>
+            <input id="timer-duration" type="number">
+            <audio id="sound" src="timer-sound.mp3"></audio>
+        </div>
+        <div class="stopwatch-container">
+            <button id="stopwatch-btn">Start Stopwatch</button>
+            <span id="stopwatch-time"></span>
+            <audio id="sound" src="timer-sound.mp3"></audio>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
